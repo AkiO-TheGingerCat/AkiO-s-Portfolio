@@ -2,6 +2,7 @@ import { Navbar } from "./src/components/Navbar";
 import { Section } from "./src/components/Section";
 import { profile } from "./src/data/profile";
 import { Certificates } from "./src/components/Certificates";
+import { Skills } from "./src/components/Skills";
 
 export default function Home() {
   return (
@@ -48,7 +49,7 @@ export default function Home() {
       </Section>
 
       <Section id="skills" title="Skills">
-        <p className="text-neutral-400">Next: we’ll add a clean skills grid.</p>
+        <Skills />
       </Section>
 
       <Section id="projects" title="Projects">

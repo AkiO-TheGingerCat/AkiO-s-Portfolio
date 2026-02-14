@@ -4,7 +4,7 @@ export const profile = {
   location: "Philippines",
   tagline: "I build clean, practical web experiences and keep learning every day.",
   about: [
-    "I’m an IT student who enjoys turning ideas into working web projects.",
+    "I’m a BSIS student who enjoys turning ideas into working web projects.",
     "I’m focused on improving my skills in front-end development and building a strong portfolio for the future.",
   ],
   socials: {

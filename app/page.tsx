@@ -1,6 +1,7 @@
 import { Navbar } from "./src/components/Navbar";
 import { Section } from "./src/components/Section";
 import { profile } from "./src/data/profile";
+import { Certificates } from "./src/components/Certificates";
 
 export default function Home() {
   return (
@@ -56,6 +57,10 @@ export default function Home() {
 
       <Section id="achievements" title="Achievements">
         <p className="text-neutral-400">Next: certificates + milestones.</p>
+      </Section>
+
+      <Section id="certificates" title="Certificates">
+        <Certificates />
       </Section>
 
       <Section id="contact" title="Contact">
